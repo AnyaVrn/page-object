@@ -90,6 +90,7 @@ class MoneyTransferTest {
         assertEquals(balanceSecondCard - amount, finalBalanceSecondCard);
     }
 
+
     @Order(5)
     @Test
     void shouldTransferNegativeBalance() {
